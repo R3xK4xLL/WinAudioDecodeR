@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\h">
+      <UniqueIdentifier>{8e62e1fb-ac08-4f76-817d-ed36f711217b}</UniqueIdentifier>
+      <Extensions>h;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\hpp">
+      <UniqueIdentifier>{215e397e-810e-4a2e-94ba-7c0287f5a09c}</UniqueIdentifier>
+      <Extensions>hpp;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\c">
+      <UniqueIdentifier>{56ac8c25-2166-4172-bce0-3b5166a5db61}</UniqueIdentifier>
+      <Extensions>c;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cpp">
+      <UniqueIdentifier>{00b1fe45-96f7-48f8-8c78-a88a7be59f1b}</UniqueIdentifier>
+      <Extensions>cpp;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\icons">
+      <UniqueIdentifier>{58985a13-cc05-49b1-b5d1-64f4e15b9752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Application.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\h\AbstractBaseDecoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\ApplicationManager.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\DecoderManager.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\ExecutionManager.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\FlacDecoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\framework.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\HelloWorld.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\MainApplicationProject.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\MainWinAPI.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\md5.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\MP3Decoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\OggVorbisDecoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\PureAbstractBaseDecoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\resource.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\StreamWrapper.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\targetver.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\Utils.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\WavPackDecoder.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\h\WinAPIUtils.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\c\md5.c">
+      <Filter>Source Files\c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\AbstractBaseDecoder.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ApplicationManager.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\DecoderManager.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\ExecutionManager.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\FlacDecoder.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\HelloWorld.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\MainWinAPI.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\MP3Decoder.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\OggVorbisDecoder.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\StreamWrapper.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\Utils.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\WavPackDecoder.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\WinAPIUtils.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icons\audio-wave\audio-wave-16.ico">
+      <Filter>Resource Files\icons</Filter>
+    </Image>
+    <Image Include="icons\audio-wave\audio-wave-256.ico">
+      <Filter>Resource Files\icons</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

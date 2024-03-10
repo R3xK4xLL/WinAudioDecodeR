@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "libflac",
+    "libogg",
+    "libvorbis",
+    "wavpack"
+  ]
+}

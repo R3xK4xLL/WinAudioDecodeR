@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\h">
+      <UniqueIdentifier>{7488177a-93b3-4a01-99b1-5574823f28c9}</UniqueIdentifier>
+      <Extensions>h;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\hpp">
+      <UniqueIdentifier>{56565c1c-212b-4764-808c-db59f18628ca}</UniqueIdentifier>
+      <Extensions>hpp;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\c">
+      <UniqueIdentifier>{2400949a-b21f-4804-9596-db87af502cc0}</UniqueIdentifier>
+      <Extensions>c;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\cpp">
+      <UniqueIdentifier>{781aaef0-823e-41a7-a2fa-3321e0f8010a}</UniqueIdentifier>
+      <Extensions>cpp;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpp\HelloWorldUnitTest.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cpp\pch.cpp">
+      <Filter>Source Files\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\h\pch.h">
+      <Filter>Header Files\h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
