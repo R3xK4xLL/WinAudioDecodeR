@@ -12,7 +12,7 @@ and this Project loosely adheres to [Semantic Versioning](https://semver.org/spe
 
 - Placeholder for unreleased changes. Coming soon.
 
-## [0.1.0] - 2024-03-31
+## [0.1.0] - 2024-03-14
 
 ### Added
 
