@@ -91,6 +91,9 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(ProjectDir)\src\h;$(ProjectDir)\src\hpp;$(SolutionDir)\MainApplicationProject\src\h;$(SolutionDir)\MainApplicationProject\src\hpp;$(SolutionDir)\MainApplicationProject\src\c;$(SolutionDir)\MainApplicationProject\src\cpp;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -165,7 +168,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\cpp\HelloWorldUnitTest.cpp" />
+    <ClCompile Include="src\cpp\FlacDecoderUnitTest.cpp" />
     <ClCompile Include="src\cpp\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

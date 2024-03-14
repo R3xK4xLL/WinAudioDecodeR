@@ -1,5 +1,9 @@
 #include "ExecutionManager.h"
 
+// ****************************************************************************
+//                          Execution Manager
+// ****************************************************************************
+
 MainApplication::ExecutionManager::ExecutionManager(const LPCRITICAL_SECTION lpCriticalSection)
 {
     this->criticalSectionPtr = lpCriticalSection;

@@ -1,5 +1,5 @@
-#ifndef CSTREAM_H
-#define CSTREAM_H
+#ifndef STREAM_WRAPPER_H
+#define STREAM_WRAPPER_H
 
 // Standard I/O Header.
 #include <cstdio>
@@ -104,4 +104,4 @@ class StreamWrapper
 		bool OpenFileMode(const wchar_t* filenamePtr, int mode);
 };
 
-#endif // CSTREAM_H
+#endif // STREAM_WRAPPER_H

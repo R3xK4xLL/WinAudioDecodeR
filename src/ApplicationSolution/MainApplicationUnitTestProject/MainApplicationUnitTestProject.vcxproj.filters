@@ -31,10 +31,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\cpp\HelloWorldUnitTest.cpp">
+    <ClCompile Include="src\cpp\pch.cpp">
       <Filter>Source Files\cpp</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpp\pch.cpp">
+    <ClCompile Include="src\cpp\FlacDecoderUnitTest.cpp">
       <Filter>Source Files\cpp</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,5 @@
-#ifndef BASE_DECODER_H
-#define BASE_DECODER_H
+#ifndef ABSTRACT_BASE_DECODER_H
+#define ABSTRACT_BASE_DECODER_H
 
 #include "PureAbstractBaseDecoder.h"
 
@@ -42,4 +42,4 @@ private:
     std::wstring decoderName;
 };
 
-#endif // BASE_DECODER_H
+#endif // ABSTRACT_BASE_DECODER_H

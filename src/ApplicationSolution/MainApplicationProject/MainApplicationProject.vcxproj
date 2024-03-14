@@ -80,9 +80,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(ProjectDir)\src\h;$(ProjectDir)\src\hpp;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>WinAudioDecodeR</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(ProjectDir)\src\h;$(ProjectDir)\src\hpp;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <TargetName>WinAudioDecodeR</TargetName>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnableManifest>true</VcpkgEnableManifest>
@@ -157,8 +159,6 @@
     <ClInclude Include="src\h\ExecutionManager.h" />
     <ClInclude Include="src\h\FlacDecoder.h" />
     <ClInclude Include="src\h\framework.h" />
-    <ClInclude Include="src\h\HelloWorld.h" />
-    <ClInclude Include="src\h\MainApplicationProject.h" />
     <ClInclude Include="src\h\MainWinAPI.h" />
     <ClInclude Include="src\h\md5.h" />
     <ClInclude Include="src\h\MP3Decoder.h" />
@@ -177,7 +177,6 @@
     <ClCompile Include="src\cpp\DecoderManager.cpp" />
     <ClCompile Include="src\cpp\ExecutionManager.cpp" />
     <ClCompile Include="src\cpp\FlacDecoder.cpp" />
-    <ClCompile Include="src\cpp\HelloWorld.cpp" />
     <ClCompile Include="src\cpp\MainWinAPI.cpp" />
     <ClCompile Include="src\cpp\MP3Decoder.cpp" />
     <ClCompile Include="src\cpp\OggVorbisDecoder.cpp" />

@@ -57,12 +57,6 @@
     <ClInclude Include="src\h\framework.h">
       <Filter>Header Files\h</Filter>
     </ClInclude>
-    <ClInclude Include="src\h\HelloWorld.h">
-      <Filter>Header Files\h</Filter>
-    </ClInclude>
-    <ClInclude Include="src\h\MainApplicationProject.h">
-      <Filter>Header Files\h</Filter>
-    </ClInclude>
     <ClInclude Include="src\h\MainWinAPI.h">
       <Filter>Header Files\h</Filter>
     </ClInclude>
@@ -114,9 +108,6 @@
       <Filter>Source Files\cpp</Filter>
     </ClCompile>
     <ClCompile Include="src\cpp\FlacDecoder.cpp">
-      <Filter>Source Files\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="src\cpp\HelloWorld.cpp">
       <Filter>Source Files\cpp</Filter>
     </ClCompile>
     <ClCompile Include="src\cpp\MainWinAPI.cpp">

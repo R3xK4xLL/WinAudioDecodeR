@@ -90,7 +90,7 @@ See the [Error Message Guide](docs/ERROR-MESSAGE-GUIDE.md) for additional inform
 
 ## License
 
-WinAudioDecodeR is licensed under the MIT license - see the [LICENSE](LICENSE) file for details.
+WinAudioDecodeR is licensed under the MIT license - see the [LICENSE](LICENSE.txt) file for details.
 
 
 ## Development Notes
