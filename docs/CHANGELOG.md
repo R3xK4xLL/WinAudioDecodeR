@@ -29,8 +29,7 @@ and this Project loosely adheres to [Semantic Versioning](https://semver.org/spe
 - Added support for displaying multiple Error Messages per File.
 
 - Added support for displaying overall Task Progress in a Progress Window.
-	- Made adjustments to the manual layout of various Controls to allow for the new Progress Window to be integrated into the Client Area.
-	- Now the user will have additional visual information. Especially useful for longer running jobs.
+	- Made adjustments to the manual layout of various Controls to allow for the new Progress Window to be integrated into the Client Area. Now the user will have additional visual information. Especially useful for longer running jobs.
 
 - Added support for the display of a Status Bar Window at the bottom of the main Application Window.
 	-  Made adjustments to the manual layout of various Controls to allow for the new Status Bar Window to be integrated into the Client Area.
@@ -63,15 +62,15 @@ and this Project loosely adheres to [Semantic Versioning](https://semver.org/spe
 	- Added support for opening Network Shared Folders and Mapped Network Drive Folders.
 	- Shell-style Open Folder Dialog Box is centered within the main Application Window when opened.
 
-- Added an Execution Manager to support backround Asynchronous Thread-based Folder processing.
-	- It was observered that opening or dragging and dropping large Folder/SubFolder structures would cause the Main GUI Thread to hang, resulting in the GUI becoming unresponsive.
+- Added an Execution Manager to support background Asynchronous Thread-based Folder processing.
+	- NOTE: It was observed that opening or dragging and dropping large Folder/SubFolder structures would cause the Main GUI Thread to hang, resulting in the GUI becoming unresponsive.
 	- Dragging and Dropping multiple large folder structures is now supported without hanging the Main GUI Thread.
 	- Large folder structures can be opened via the Open Dialog Box, without hanging the Main GUI Thread.
-	- The Asynchronous search/traverseral of large folder structures can now be explicitly stopped by the User.
+	- The Asynchronous search/traversal of large folder structures can now be explicitly stopped by the User.
 
 - Added additional Application Logic for the concept of the Stopping State.
 	- While the Application is in the Stopping State, adding further Input Data (File and Folders) is not allowed. This is typically performed by adding Input Data via Drag N Drop, the File Dialog Box, and the Folder Dialog Box.
-		- Added the Display of a Message Box informing the User the operation is not allowed, when a User attempts to add Input Data while in the Stopping State.
+	- Added the Display of a Message Box informing the User the operation is not allowed, when a User attempts to add Input Data while in the Stopping State.
 
 - Added support for Opening File/Folders Paths via Callback Functions to the Drag-and-Drop function, the Open File Dialog Box function, and the Open Folder Dialog Box function.
 	- The usage of Callback Functions for opening Paths, allows for code reuse involving preparing a Path for opening. The Path opening behavior can now be varied by Callback Function.
@@ -81,7 +80,7 @@ and this Project loosely adheres to [Semantic Versioning](https://semver.org/spe
 
 - Created Application Manager Class that is used to manage custom Application Data and Support Logic.
 	- Refactored out many Global Variables from Main Program area and encapsulated them within the Application Manager as Instance variables.
-			- Added Getter/Setter functions to the Application Manager to support encapsulation.
+	- Added Getter/Setter functions to the Application Manager to support encapsulation.
 	- Added COM Library support to Application Manager.
 		- COM Library is initialized in the Constructor and the COM Library is closed in the Destructor.
 		- COM Library added to support SHBrowseForFolder() and SHGetPathFromIDList() functions.
@@ -155,7 +154,7 @@ and this Project loosely adheres to [Semantic Versioning](https://semver.org/spe
 
 - Changed FlacDecoder Class
 	- Added support for detecting and responding to Bad Metadata errors (FLAC__STREAM_DECODER_ERROR_STATUS_BAD_METADATA).
-	- Added commments throughout the Flac Decoder Class, many of which reference the FLAC Library API.
+	- Added comments throughout the Flac Decoder Class, many of which reference the FLAC Library API.
 		- Increased the readability and maintainability of the existing code.
 	- Added support for detecting the presence of ID3v1 Tags when Sync Errors occur at the end of a FLAC Stream.
 		- [See Forum Post for details](https://hydrogenaud.io/index.php/topic,30673.0.html)

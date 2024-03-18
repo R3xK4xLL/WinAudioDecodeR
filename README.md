@@ -86,12 +86,19 @@ See the [Changelog](docs/CHANGELOG.md).
 
 ## Documentation
 
+### Error Message Guide ###
+
 See the [Error Message Guide](docs/ERROR-MESSAGE-GUIDE.md) for additional information about the Error Messages shown in the Final Report.
+
+### Build Guide ###
+
+The Projects within the Solution use vcpkg as their Package Manager and therefore the Visual Studio environment must be configured to support vcpkg.
+
+See the [vcpkg Installation Guide](docs/VCPKG-INSTALLATION-GUIDE.md) for additional information about configuring vcpkg Package Manager support for Visual Studio.
 
 ## License
 
-WinAudioDecodeR is licensed under the MIT license - see the [LICENSE](LICENSE.txt) file for details.
-
+WinAudioDecodeR is licensed under the MIT license - see the [LICENSE](docs/licenses/LICENSE.txt) file for details.
 
 ## Development Notes
 
